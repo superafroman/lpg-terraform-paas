@@ -199,6 +199,10 @@ resource "azurerm_template_deployment" "lpg-ui-app-service" {
                               "value":"${var.feedback_recipient}"
                           },
                           {
+                              "name":"INSTRUMENTATION_KEY",
+                              "value":"${var.instrumentation_key}"
+                          },
+                          {
                               "name":"DOCKER_REGISTRY_SERVER_URL",
                               "value":"https://${var.docker_registry_server_url}"
                           },

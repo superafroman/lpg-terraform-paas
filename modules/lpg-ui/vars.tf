@@ -157,3 +157,7 @@ variable "custom_emails" {
 variable "scaling_enabled" {
   default = ""
 }
+
+variable "instrumentation_key" {
+  default = ""
+}
