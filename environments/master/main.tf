@@ -250,6 +250,7 @@ module "lpg-ui" {
   lpg_management_server           = "https://${var.envurl}management.cshr.digital"
   feedback_recipient              = "${var.feedback_recipient}"
   scaling_enabled                 = "false"
+  instrumentation_key             = "${var.instrumentation_key}"
   custom_emails                   = "${var.custom_emails}"
   webapp_sku_tier                 = "${var.webapp_sku_tier}"
   webapp_sku_name                 = "${var.webapp_sku_name_2}"
